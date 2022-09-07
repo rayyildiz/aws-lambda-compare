@@ -20,3 +20,10 @@ All mesasurements are in `millisecond` ( ms )
 |  Node     | 234    |  102   |  36     |
 |  C#       |  62    |   42   |   8     | 
 
+
+
+Versions:
+
+- .NET **6.0.400**
+- Go   **1.19.0**
+- Node **16.17.0**
