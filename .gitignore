@@ -1,0 +1,10 @@
+.vscode/
+.vs/
+.idea/
+tmp/
+bin/
+obj/
+*.dll
+node_modules/
+.env
+*.zip

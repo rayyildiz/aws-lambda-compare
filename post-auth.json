@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "triggerSource": "PostAuthentication_Authentication",
+  "region": "eu-west-1",
+  "userPoolId": "poolId",
+  "userName": "rayyildiz",
+  "callerContext": {
+    "awsSdkVersion": "<calling aws sdk with version>",
+    "clientId": "<apps client id>"
+  },
+  "request": {
+    "newDeviceUsed": true,
+    "userAttributes" : {
+      "email": "r@rayyildiz.com",
+      "phone_number": "<phone_number>"
+    },
+    "clientMetadata": {
+      "first_name": "Ramazan"
+    }
+  },
+  "response": {}
+}
