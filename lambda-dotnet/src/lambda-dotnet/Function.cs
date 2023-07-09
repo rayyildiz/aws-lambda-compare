@@ -23,7 +23,7 @@ public class Function
             cmd.Parameters.AddWithValue("poolId-dotnet");
             cmd.Parameters.AddWithValue("username");
             cmd.Parameters.AddWithValue("eu-west-2");
-            cmd.Parameters.AddWithValue("r@ayyildiz.ai");
+            cmd.Parameters.AddWithValue("test@example.com");
             cmd.Parameters.AddWithValue("attrs");
 
             await cmd.ExecuteNonQueryAsync();
