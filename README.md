@@ -68,6 +68,7 @@ Versions:
 - Go   **1.19.0**
 - Node **16.17.0**
 
+> The tests were repeated 10 times and the averages were taken.
 
 ## Conclusion
 
@@ -81,9 +82,9 @@ The choice of programming language for AWS Lambda functions should consider the 
 
 ## Disclamer
 
-Of course, different results can be obtained by optimizing the codes, but we tested the applications that we wrote in the fastest way as soon as possible. And of course, it may be possible to get different results in different use cases.  
+Of course, different results can be obtained by optimizing the codes, but we tested the applications that we wrote in the fastest way as soon as possible and AWS may be doing optimizations over time. Of course, it may be possible to get different results in different use cases. 
 
-Java is excluded due to memory requirement. In the first test results, java gave a bad result in these memory configurations.
+> Java is excluded due to memory requirement. In the first test results, java gave a bad result in these memory configurations.
 
 ## License
 
