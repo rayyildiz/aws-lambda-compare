@@ -1,9 +1,9 @@
 
 # AWS Lambda Performance Comparison
 
-This repository contains code samples and performance comparisons for AWS Lambda functions implemented in different programming languages. The purpose of this repo is to evaluate the performance of AWS Lambda functions written in Go, C#, and Node.js. 
+This repository contains code samples and performance comparisons for [AWS Lambda](https://aws.amazon.com/lambda/) functions implemented in different programming languages. The purpose of this repo is to evaluate the performance of AWS Lambda functions written in [Go](https://go.dev/), [C#](https://learn.microsoft.com/en-us/dotnet/csharp/), and [Node.js](https://nodejs.org). 
 
-This repository contains code samples and configuration files for saving login logs into a PostgreSQL relational database running on AWS using AWS Lambda. 
+This repository contains code samples and configuration files for saving login logs into a PostgreSQL relational database running on [AWS RDS](https://aws.amazon.com/rds/postgresql/) using AWS Lambda. 
 
 ## Introduction
 
@@ -78,3 +78,9 @@ Based on the performance tests conducted in this study, the following conclusion
 * Node.js also shows relatively consistent performance across different memory configurations. While it has higher warm latencies compared to Go.
 
 The choice of programming language for AWS Lambda functions should consider the specific requirements of the application, such as response time, resource consumption, and developer familiarity.
+
+## Disclamer
+
+Of course, different results can be obtained by optimizing the codes, but we tested the applications that we wrote in the fastest way as soon as possible. And of course, it may be possible to get different results in different use cases.  
+
+Java is excluded due to memory requirement. In the first test results, java gave a bad result in these memory configurations.
