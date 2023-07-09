@@ -11,7 +11,7 @@
   "request": {
     "newDeviceUsed": true,
     "userAttributes" : {
-      "email": "r@rayyildiz.com",
+      "email": "test@example.com",
       "phone_number": "<phone_number>"
     },
     "clientMetadata": {
