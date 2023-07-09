@@ -35,7 +35,7 @@ Test event can be found [here](./post-auth.json)
 To test the login logging system, follow these steps:
 
 * Invoke the Lambda function manually using sample login log events as input. You can use the AWS Management Console or the AWS CLI to trigger the function.
-* Check the PostgreSQL database to ensure that the login logs have been stored correctly. Use SQL queries to retrieve and validate the data.
+* Check the PostgreSQL database to ensure that the login logs have been stored correctly.
 * Check lambda function execuiton time.
 
 
@@ -43,7 +43,7 @@ To test the login logging system, follow these steps:
 
 All mesasurements are in `millisecond` ( ms )
 
-## Cold 
+### Cold 
 
 | Language  | 128mb  | 256mb  | 512mb  |
 |-----------|--------|--------|--------|
@@ -52,7 +52,7 @@ All mesasurements are in `millisecond` ( ms )
 |  C#       | 6990   |  3417  |  1660  |
 
 
-## Warm
+### Warm
 
 | Language  |  128mb |  256mb |   512mb |
 |-----------|--------|--------|---------|
